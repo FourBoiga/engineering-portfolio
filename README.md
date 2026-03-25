@@ -6,7 +6,7 @@ This portfolio contains selected projects demonstrating simulation-driven design
 
 ## Projects
 
-### 📡 6 GHz Antenna with Matching Network
+### 6 GHz Antenna with Matching Network
 Design and simulation of a high-frequency antenna system using electromagnetic theory and transmission line principles. The project includes impedance matching, radiation pattern analysis, and wave propagation visualization.
 
 Key highlights:
@@ -20,7 +20,7 @@ Key highlights:
 
 ---
 
-### 🎧 Portable DAC for Earbuds
+### Portable DAC for Earbuds
 Design of a compact digital-to-analog converter optimized for earbuds, focusing on low noise, signal integrity, and real-world audio performance.
 
 Key highlights:
@@ -34,7 +34,7 @@ Key highlights:
 
 ---
 
-### 🚀 Ethanol / Nitrous Oxide Liquid Rocket Engine
+### Ethanol / Nitrous Oxide Liquid Rocket Engine
 Design and analysis of a small-scale bipropellant liquid rocket engine, including combustion chamber and nozzle geometry.
 
 Focus areas:
