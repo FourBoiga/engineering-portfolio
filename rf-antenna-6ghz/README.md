@@ -42,9 +42,10 @@ A time-domain simulation showing electromagnetic wave propagation from the anten
   </a>
 </p>
 
-Click to watch full video
   
 *Figure 4: Electromagnetic wave propagation transitioning from near-field behavior to radiating far-field energy.*
+
+Click to watch full video
 
 ---
 
