@@ -14,7 +14,7 @@ Design a high-efficiency antenna operating at 6 GHz with:
 - Have an s11 < -10
 - Filter network the filters out all signals other than 5.6ghz to 6.4ghz with a center frequency of 6ghz
 - Remain within a total budget of $180; this goal explicitly researves budget for multiple PCB iterations, acknoledging that RF matching networks rarely function optimally on the first revision.
-###Budget Allocation Strategy
+### Budget Allocation Strategy
   | Component | Cost |
   |----------|-----|
   | PCB | $90 |
