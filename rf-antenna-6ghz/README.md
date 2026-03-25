@@ -11,7 +11,7 @@ This project focuses on the design and simulation of a 6 GHz antenna system, inc
 Design a high-efficiency antenna operating at 6 GHz with:
 - 13-15 dbi of gain
 - Efficiency above 60%
-- Have an s11 < -10
+- Have an s11 < -10 db
 - Filter network the filters out all signals other than 5.6ghz to 6.4ghz with a center frequency of 6ghz
 - Remain within a total budget of $180; this goal explicitly researves budget for multiple PCB iterations, acknoledging that RF matching networks rarely function optimally on the first revision.
 ### Budget Allocation Strategy
