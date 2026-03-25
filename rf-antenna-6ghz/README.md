@@ -32,8 +32,18 @@
 
 ---
 
-## Wave Propagation Visualization
+### Wave Propagation Visualization
 
-▶️ [Watch Simulation](https://youtu.be/U8itqUXPRIE)
+A time-domain simulation showing electromagnetic wave propagation from the antenna at 6 GHz.
 
-*Figure: Simulation showing electromagnetic wave propagation from the antenna at 6 GHz.*
+<p align="center">
+  <a href="https://youtu.be/U8itqUXPRIE">
+    <img src="https://img.youtube.com/vi/U8itqUXPRIE/maxresdefault.jpg" width="70%">
+  </a>
+</p>
+
+*Figure 4: Electromagnetic wave propagation transitioning from near-field behavior to radiating far-field energy.*
+
+---
+
+This simulation illustrates how oscillating currents in the antenna generate coupled electric and magnetic fields, which propagate outward as electromagnetic radiation.
