@@ -122,7 +122,7 @@ Wave propagation analysis confirms the expected transition from near-field energ
 
 ## Manufacturing Approach
 
-The antenna will initially built using a structural material with with an internal conductive surface formed using copper tape. This approach was chosen due to the lack of easily accessable 3d printer. Additionally, this method allows for quick and cheap iterations, resulting in finalizing the antenna quicker and more cost affectively.
+The antenna will initially built using a structural material with with an internal conductive surface formed using copper tape. This approach was chosen due to the lack of easily accessable 3d printers. Additionally, this method allows for quick and cheap iterations, resulting in finalizing the antenna quicker and more cost affectively.
 
 ---
 
