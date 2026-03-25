@@ -16,7 +16,7 @@ Design a high-efficiency antenna operating at 6 GHz with:
 - Remain within a total budget of $180; this goal explicitly researves budget for multiple PCB iterations, acknoledging that RF matching networks rarely function optimally on the first revision.
 ### Budget Allocation Strategy
 | Component | Cost |
-|-----------------|
+|----------|-----|
 | PCB | $90 |
 | Antenna |  $60 |
 | Connectors + misc | $30 |
