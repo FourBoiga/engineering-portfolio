@@ -1,14 +1,76 @@
 # Engineering Portfolio
 
-This repository contains several engineering projects demonstrating my work in electronics, RF systems, and propulsion.
+This portfolio contains selected projects demonstrating simulation-driven design, circuit development, and applied electromagnetic theory.
+
+---
 
 ## Projects
 
-### Precision DAC System
-Design of a digital-to-analog conversion system including signal filtering and system control.
+### 📡 6 GHz Antenna with Matching Network
+Design and simulation of a high-frequency antenna system using electromagnetic theory and transmission line principles. The project includes impedance matching, radiation pattern analysis, and wave propagation visualization.
 
-### 6 GHz Antenna System
-Simulation and development of a high-frequency antenna with impedance matching and RF filtering.
+Key highlights:
+- -35 dB S11 (excellent impedance matching)
+- ~50 Ω input impedance
+- 15 dBi directivity
+- 91% aperture efficiency
+- Full EM simulation using openEMS
 
-### Ethanol / Nitrous Oxide Liquid Rocket Engine
-Design of a small-scale bipropellant liquid rocket engine including combustion chamber and nozzle analysis.
+→ [View Project](rf-antenna-6ghz/README.md)
+
+---
+
+### 🎧 Portable DAC for Earbuds
+Design of a compact digital-to-analog converter optimized for earbuds, focusing on low noise, signal integrity, and real-world audio performance.
+
+Key highlights:
+- Designed for high-sensitivity audio devices
+- Emphasis on low noise and clean output
+- Includes filtering and buffering stages
+- System-level signal chain design
+- optimized for earbuds (in-ear monitors)
+
+→ [View Project](portable-dac-iems/README.md)
+
+---
+
+### 🚀 Ethanol / Nitrous Oxide Liquid Rocket Engine
+Design and analysis of a small-scale bipropellant liquid rocket engine, including combustion chamber and nozzle geometry.
+
+Focus areas:
+- Fluid dynamics
+- Thermodynamics
+- Combustion considerations
+- System integration
+
+→ [View Project](liquid-rocket-engine/README.md)
+
+---
+
+## Engineering Approach
+
+My approach to engineering emphasizes:
+
+- Understanding underlying physics before simulation
+- Using simulation as a validation tool, not a starting point
+- Designing systems with attention to real-world constraints
+- Iterating based on both theoretical and practical considerations
+
+---
+
+## Tools and Skills
+
+- Electromagnetic simulation (openEMS)
+- PCB design (KiCad)
+- Circuit design and analysis
+- RF system fundamentals
+- Signal processing fundamentals
+- CAD and mechanical design (basic)
+
+---
+
+## Current Focus
+
+- RF system design and antenna development
+- PCB implementation of high-frequency circuits
+- Expanding into measured validation of simulated systems
