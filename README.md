@@ -47,6 +47,17 @@ Focus areas:
 
 ---
 
+### 16-bit CPU (Logisim)
+Design and implementation of a 16-bit processor built from fundamental logic components, including an ALU, registers, and control unit.
+
+Key highlights:
+- Built from basic logic gates and sequential circuits
+- Custom instruction execution
+- Full datapath and control design
+- Demonstrates understanding of computer architecture
+
+→ [View Project](16bit-cpu/README.md)
+
 ## Engineering Approach
 
 My approach to engineering emphasizes:
