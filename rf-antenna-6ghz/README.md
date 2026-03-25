@@ -40,4 +40,4 @@
   </video>
 </p>
 
-*Figure: Simulation showing electromagnetic wave propagation from the antenna structure.*
+*Figure: Simulation showing electromagnetic wave propagation from the antenna at 6 GHz.*
