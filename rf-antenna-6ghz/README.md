@@ -98,6 +98,18 @@ Click to watch full video
 
 ---
 
+## Model Assumptions and Limitations
+
+- Perfect Electric Conductor (PEC) assumptions used for antenna surfaces
+- No dielectric losses or surface roughness modeled
+- Ideal connector and feed transition
+- No manufacturing tolerances considered
+- No environmenta effects (temperature, humidity, nearby objects)
+
+These assumptions result in optimistic performance compared to real-world implementation and will be addressed in future iterations once real world data is gathered on the antenna.
+
+---
+
 ## Engineering Analysis
 
 The antenna demonstrates strong performance across multiple key metrics. The input impedance is close to 50 Ω with minimal reactive component, enabling efficient power transfer. The -35 dB S11 indicates extremely low reflection at the operating frequency.
