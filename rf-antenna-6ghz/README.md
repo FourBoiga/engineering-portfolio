@@ -34,10 +34,6 @@
 
 ## Wave Propagation Visualization
 
-<p align="center">
-  <video width="70%" controls>
-    <source src="media/wave_propagation_simulation.mp4" type="video/mp4">
-  </video>
-</p>
+▶️ [Watch Simulation]([your-link-here](https://youtu.be/U8itqUXPRIE))
 
 *Figure: Simulation showing electromagnetic wave propagation from the antenna at 6 GHz.*
