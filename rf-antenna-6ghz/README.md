@@ -9,9 +9,11 @@ This project focuses on the design and simulation of a 6 GHz antenna system, inc
 ## Design Goal
 
 Design a high-efficiency antenna operating at 6 GHz with:
-- Strong impedance matching (low reflection)
-- High directivity
-- Efficient radiation characteristics
+- 13-15 dbi of gain
+- Efficiency above 60%
+- Have an s11 < -10
+- Filter network the filters out all signals other than 5.8ghz to 6.2ghz
+- Remain within a budget of 
 
 ---
 
