@@ -69,14 +69,15 @@ My approach to engineering emphasizes:
 
 ---
 
-## Tools and Skills
+## Tools and Technologies
 
-- Electromagnetic simulation (openEMS)
-- PCB design (KiCad)
-- Circuit design and analysis
-- RF system fundamentals
-- Signal processing fundamentals
-- CAD and mechanical design (basic)
+- Logisim (digital logic and CPU design)
+- Fusion 360 (CAD and mechanical design)
+- OpenFOAM (fluid simulation)
+- ANSYS (fluid and pump simulation)
+- openEMS (electromagnetic simulation)
+- KiCad (PCB design)
+- RPA (rocket propulsion analysis)
 
 ---
 
