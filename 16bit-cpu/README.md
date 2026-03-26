@@ -117,6 +117,7 @@ The table below shows all **function codes and corresponding opcodes** used in t
 [![Blinking Pixel Demo](https://img.youtube.com/vi/Tqd9gcN4IH8/0.jpg)](https://youtu.be/Tqd9gcN4IH8)
 
 Click the image to watch the **blinking pixel demo** illustrating the CPU driving the screen registers and rendering output in real time.
+The pixel is very small; it is located in the top left corner.
 
 ---
 
