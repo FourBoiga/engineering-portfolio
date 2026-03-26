@@ -30,7 +30,7 @@ Key highlights:
 - System-level signal chain design
 - optimized for earbuds (in-ear monitors)
 
-→ [View Project](portable-dac-iems/README.md)
+→ [View Project](dac-system/README.md)
 
 ---
 
