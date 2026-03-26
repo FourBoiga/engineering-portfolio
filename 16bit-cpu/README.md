@@ -114,7 +114,7 @@ The table below shows all **function codes and corresponding opcodes** used in t
 
 ### Demo Video
 <video width="500" controls>
-  <source src="media/blinking_pixel_demo.mp4" type="video/mp4">
+  <source src="media/blinking_pixel_demo.mp4" type="media/mp4">
   Your browser does not support the video tag.
 </video>
 <p align="center"><i>Blinking pixel demo illustrating the CPU driving the screen registers and rendering output.</i></p>
