@@ -1,15 +1,15 @@
 ## 16-bit Custom CPU Project
 
 ### Overview
-This project showcases a **16-bit CPU designed from scratch in Logisim**, complete with a **custom instruction set architecture (ISA)**, 8 general-purpose registers (r0–r7), a multi-bit ALU with shifters, ROM/RAM memory, and a small pixel display system. The CPU can execute arithmetic, logic, shift, load/store, and screen operations, and demonstrates how a hardware engineer can design, simulate, and debug a fully functional CPU with memory-mapped output.
+This project showcases a 16-bit CPU designed from scratch in Logisim, complete with a custom instruction set architecture (ISA), a multi-bit ALU with shifters, ROM/RAM memory, and a small pixel display system. The CPU can execute arithmetic, logic, shift, load/store, and screen operations, and demonstrates how a hardware engineer can design, simulate, and debug a fully functional CPU with memory-mapped output.
 
 ---
 
 ### Design Goals
 - Create a **fully functional CPU** capable of executing a simple program.  
 - Implement a **custom ISA** including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.  
-- Design an **ALU that scales from 1-bit slices to a full 16-bit unit** with shifters.  
-- Implement a **small pixel display system** driven by memory-mapped registers, showcasing real-time CPU output.  
+- Design an ALU that scales from 1-bit slices to a full 16-bit unit with shifters.  
+- Implement a small pixel display system driven by memory-mapped registers, showcasing real-time CPU output.  
 - Ensure modularity and clarity in design so the CPU can be easily extended or modified.  
 
 ---
@@ -46,7 +46,7 @@ The CPU is composed of:
 <p align="center"><i>ROM snippet of the blinking pixel demo program; instructions encoded using the custom ISA.</i></p>
 
 - Program initializes screen registers and cycles through blinking a single pixel.  
-- Demonstrates use of **immediate values**, ALU output, and memory-mapped addresses for screen control.
+- Demonstrates use of immediate values, ALU output, and memory-mapped addresses for screen control.
 
 #### Display System
 <img src="images/display_section.png" alt="Display Section" width="500"/>
@@ -78,7 +78,7 @@ The CPU is composed of:
 ---
 
 ### Instruction Set Architecture (ISA)
-The table below shows all **function codes and corresponding opcodes** used in the 16-bit CPU:
+The table below shows all function codes and corresponding opcodes used in the 16-bit CPU:
 
 <table>
   <thead>
@@ -116,14 +116,14 @@ The table below shows all **function codes and corresponding opcodes** used in t
 
 [![Blinking Pixel Demo](https://img.youtube.com/vi/Tqd9gcN4IH8/0.jpg)](https://youtu.be/Tqd9gcN4IH8)
 
-Click the image to watch the **blinking pixel demo** illustrating the CPU driving the screen registers and rendering output in real time.
+Click the image to watch the blinking pixel demo illustrating the CPU driving the screen registers and rendering output in real time.
 The pixel is very small; it is located in the top left corner.
 
 ---
 
 ### Challenges & Solutions
 
-- **Screen register timing**: originally, screen registers reset too quickly before a full frame could be written. Solved by **connecting write-enable to the clock**, ensuring stable updates.  
+- **Screen register timing**: originally, screen registers reset too quickly before a full frame could be written. Solved by connecting write-enable to the clock, ensuring stable updates.  
 - **Propagation glitches in ALU output**: observed temporary incorrect values. Stabilized by holding r7 and carefully controlling ALU inputs.  
 - **Encoding custom ISA into ROM**: manually translating instructions was error-prone; carefully verified HEX encoding for registers, immediate values, and opcodes.  
 
@@ -131,19 +131,19 @@ The pixel is very small; it is located in the top left corner.
 
 ### Engineering Insight / Review
 
-- This project demonstrates **hardware-level design thinking**, including modular ALU construction, control unit logic, and memory-mapped I/O.  
+- This project demonstrates hardware-level design thinking, including modular ALU construction, control unit logic, and memory-mapped I/O.  
 - Understanding how r0 default updates, r7 data routing, and DMUX selection interact was critical to correct screen output.  
-- Emphasizes the **importance of timing, signal propagation, and register latching** in CPU design.
+- Emphasizes the importance of timing, signal propagation, and register latching in CPU design.
 
 ---
 
 ### Lessons Learned
 
-- How to design a **custom instruction set** and encode it into ROM.  
+- How to design a custom instruction set and encode it into ROM.  
 - Multi-bit ALU design from 1-bit slices with integrated shifters.  
-- Effective **memory-mapped I/O** and register selection for hardware-driven displays.  
+- Effective memory-mapped I/O and register selection for hardware-driven displays.  
 - Debugging timing issues with registers, ALU, and output devices.  
-- How to **document and showcase engineering projects** for both technical and non-technical audiences.
+- How to document and showcase engineering projects for both technical and non-technical audiences.
 
 ---
 
