@@ -22,7 +22,7 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 - **Registers (r0-r31)** - Is able to hold 32 unique 16bit values through its 32 registers.
 - **Instructions** - 32 bit instruction width to allow for a larger immediate.
 - **FrameBuffer** - Part of the RAM also handles holding the screens current frame data, acting as a framebuffer.
-- **ALU** – Supports all arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
+- **ALU** – Supports all basic arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
 - **ROM** – Stores program instructions in HEX, including the blinking pixel demo.  
 - **RAM** – Stores runtime data and can be memory-mapped to buttons or the display.  
 - **Control Unit** – Decodes instructions and generates signals for ALU, register writes, memory operations, and screen writes.  
