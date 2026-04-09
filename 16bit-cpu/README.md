@@ -19,7 +19,7 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 <img src="images/full_system.png" alt="Full CPU System" width="600"/>
 <p align="center"><i>Full CPU architecture showing registers, ALU, control unit, ROM, RAM, and screen registers.</i></p>
 
-**Registers (r0-r7)** - Is able to hold 32 unique 16bit values through its 32 registers.
+**Registers (r0-r31)** - Is able to hold 32 unique 16bit values through its 32 registers.
 **Instructions** - 32 bit instruction width to allow for a larger immediate.
 **FrameBuffer** - Part of the RAM also handles holding the screens current frame data, acting as a framebuffer.
 **ALU** – Supports all arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
