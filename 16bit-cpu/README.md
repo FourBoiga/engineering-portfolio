@@ -1,11 +1,12 @@
 ## 16-bit Custom CPU Project
 
 ### Overview
-This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU has a fully custom Instruction Set Architecture (ISA) built for a 32 bit long instruction. Allowing for complex programs, stretching from simple addition, to playing tetris. Additionally, a complementary custom python assembler was created in order to allow for quick and more readable programing of the CPU. Surrounding the CPU, ram is present, in order to increase the CPU's efficiency, allowing it to focus on computing difficult arithmetic.
+This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU has a fully custom Instruction Set Architecture (ISA) built for a 32 bit long instruction. Allowing for complex programs, stretching from simple addition, to playing tetris. Additionally, a complementary custom python assembler was created in order to allow for quick and more readable programing of the CPU. Surrounding the CPU, RAM is present, in order to increase the CPU's efficiency, allowing it to focus on computing difficult arithmetic.
 
 ---
 
 ### Design Goals
+
 - Create a fully functional CPU capable of executing a simple program.  
 - Implement a custom ISA including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.
 - Implement a small pixel display system driven by memory-mapped registers, showcasing real-time CPU output.  
@@ -14,25 +15,39 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 ---
 
 ### Currecnt Architecture (Current Version -V2)
-- Is able to hold 32 unique 16bit values through its 32 registers.
-- 32 bit instruction bit width to allow for a larger immediate.
-- Ram address is controled via the ALU's output; the ram's data input is sent through register 2 (R2).
-- Part of the ram also handles holding the screens current frame data, acting as a framebuffer.
-- 
 
----
-
-### Architecture
 <img src="images/full_system.png" alt="Full CPU System" width="600"/>
 <p align="center"><i>Full CPU architecture showing registers, ALU, control unit, ROM, RAM, and screen registers.</i></p>
 
-The CPU is composed of:
+**Registers (r0-r7)** - Is able to hold 32 unique 16bit values through its 32 registers.
+**Instructions** - 32 bit instruction width to allow for a larger immediate.
+**FrameBuffer** - Part of the RAM also handles holding the screens current frame data, acting as a framebuffer.
+**ALU** – Supports all arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
+**ROM** – Stores program instructions in HEX, including the blinking pixel demo.  
+**RAM** – Stores runtime data and can be memory-mapped to buttons or the display.  
+**Control Unit** – Decodes instructions and generates signals for ALU, register writes, memory operations, and screen writes.  
+
+---
+
+### V2 Improvments
+
+**Number of Registers** - Increased the number of registers from 8 to 32.
+**Rom** - Expanded the ROM's width from 16 bits to 32 bits.
+**FrameBuffer** - Added a FrameBuffer into the RAM.
+**Assembler** - Developed a Python assembler.
+
+---
+
+### Design Evolution
+
+- Register size was increased in responce to the severe cut in performance resulting in needing to store an excessive amount of critical information into RAM. However, as a result the number of bits needed to control the additional registers increases by 6.
+- ROM was expanded in order to accomidate for a larger imidiate (3 bits to 16 bits); allowing for a larger numbers to be input into the CPU at start. Moreover, the increased number of registers required an increase in bits needed to select which register to write to, and which to put into the ALU.
+- Framebuffer was added to further increase the CPU's performance by decreasing the load on the CPU. Adding the Framebuffer allows the CPU to no longer need to manually plot pixels on to the screen. Previously, the CPU was required to set the location of each pixel manually over multiple cycles. However, with the inclusion of the framebuffer the CPU is a able to send location (X and Y cordinates) and color information in only two cycles, contrary to the previous three.
+- The custom Python assembler was created to introduce quicker bug fixing. Through, the assembler's faster coding brougth through removing the need to code instructions manually in binary.
+
 
 - **Registers (r0–r7)** – general-purpose registers, with r0 updating to ALU output by default unless another register is selected. r7 serves as the data register for screen output.  
-- **ALU** – supports all arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
-- **ROM** – stores program instructions in HEX, including the blinking pixel demo.  
-- **RAM** – stores runtime data and can be memory-mapped to buttons or the display.  
-- **Control Unit** – decodes instructions and generates signals for ALU, register writes, memory operations, and screen writes.  
+
 - **Screen Registers / DMUX** – X, Y, and Color registers drive a 256×256 display; DMUX selects which value from r7 updates which register.
 
 ---
