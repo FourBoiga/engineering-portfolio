@@ -1,16 +1,24 @@
 ## 16-bit Custom CPU Project
 
 ### Overview
-This project showcases a 16-bit CPU designed from scratch in Logisim, complete with a custom instruction set architecture (ISA), a multi-bit ALU with shifters, ROM/RAM memory, and a small pixel display system. The CPU can execute arithmetic, logic, shift, load/store, and screen operations, and demonstrates how a hardware engineer can design, simulate, and debug a fully functional CPU with memory-mapped output.
+This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU has a fully custom Instruction Set Architecture (ISA) built for a 32 bit long instruction. Allowing for complex programs, stretching from simple addition, to playing tetris. Additionally, a complementary custom python assembler was created in order to allow for quick and more readable programing of the CPU. Surrounding the CPU, ram is present, in order to increase the CPU's efficiency, allowing it to focus on computing difficult arithmetic.
 
 ---
 
 ### Design Goals
 - Create a fully functional CPU capable of executing a simple program.  
-- Implement a custom ISA including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.  
-- Design an ALU that scales from 1-bit slices to a full 16-bit unit with shifters.  
+- Implement a custom ISA including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.
 - Implement a small pixel display system driven by memory-mapped registers, showcasing real-time CPU output.  
 - Ensure modularity and clarity in design so the CPU can be easily extended or modified.  
+
+---
+
+### Currecnt Architecture (Current Version -V2)
+- Is able to hold 32 unique 16bit values through its 32 registers.
+- 32 bit instruction bit width to allow for a larger immediate.
+- Ram address is controled via the ALU's output; the ram's data input is sent through register 2 (R2).
+- Part of the ram also handles holding the screens current frame data, acting as a framebuffer.
+- 
 
 ---
 
