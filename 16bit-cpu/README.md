@@ -6,8 +6,8 @@ This project showcases a 16-bit CPU designed from scratch in Logisim, complete w
 ---
 
 ### Design Goals
-- Create a **fully functional CPU** capable of executing a simple program.  
-- Implement a **custom ISA** including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.  
+- Create a fully functional CPU capable of executing a simple program.  
+- Implement a custom ISA including ADD, SUB, AND, OR, XOR, PASS/MOV, SHL, SHR, LOAD, STORE, JMP, JZ, and JN instructions.  
 - Design an ALU that scales from 1-bit slices to a full 16-bit unit with shifters.  
 - Implement a small pixel display system driven by memory-mapped registers, showcasing real-time CPU output.  
 - Ensure modularity and clarity in design so the CPU can be easily extended or modified.  
@@ -20,7 +20,7 @@ This project showcases a 16-bit CPU designed from scratch in Logisim, complete w
 
 The CPU is composed of:
 
-- **Registers (r0–r7)** – general-purpose registers, with r0 updating to ALU output by default unless another register is selected. r7 serves as the **data register for screen output**.  
+- **Registers (r0–r7)** – general-purpose registers, with r0 updating to ALU output by default unless another register is selected. r7 serves as the data register for screen output.  
 - **ALU** – supports all arithmetic and logic operations, built from 1-bit slices, combined into a 16-bit ALU. Shifters are integrated to support shift operations efficiently.  
 - **ROM** – stores program instructions in HEX, including the blinking pixel demo.  
 - **RAM** – stores runtime data and can be memory-mapped to buttons or the display.  
