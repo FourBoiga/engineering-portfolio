@@ -72,16 +72,10 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 <img src="images/rom_zoom.png" alt="ROM Zoom" width="450"/>
 <p align="center"><i>ROM snippet of the blinking pixel demo program; instructions encoded using the custom ISA.</i></p>
 
-- Program initializes screen registers and cycles through blinking a single pixel.  
-- Demonstrates use of immediate values, ALU output, and memory-mapped addresses for screen control.
 
 #### Display System
 <img src="images/display_section.png" alt="Display Section" width="500"/>
 <p align="center"><i>Screen registers (X, Y, Color) and DMUX controlling the pixel output. r7 acts as the data register.</i></p>
-
-- DMUX selects between RAM, X/Y/Color registers.  
-- Comparator uses ALU output to select the proper screen register.  
-- Display updates each clock cycle without timing issues, thanks to always-on write-enable.
 
 #### ALU Design
 <table>
@@ -99,7 +93,7 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 <img src="images/control_unit.png" alt="Control Unit" width="600"/>
 <p align="center"><i>Control unit decoding instructions and generating signals for ALU, registers, and screen writes.</i></p>
 
-- Handles opcode decoding, register write selection, ALU inputs, memory operations, and screen writes.  
+- Handles opcode decoding, register write selection, ALU inputs, and memory operations.  
 - Ensures instructions execute correctly while maintaining data stability for multi-cycle operations.
 
 ---
@@ -171,6 +165,7 @@ The pixel is very small; it is located in the top left corner.
 - Effective memory-mapped I/O and register selection for hardware-driven displays.  
 - Debugging timing issues with registers, ALU, and output devices.  
 - How to document and showcase engineering projects for both technical and non-technical audiences.
+- How and when to use a pulldown resistor in a CPU.
 
 ---
 
