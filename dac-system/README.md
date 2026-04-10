@@ -63,6 +63,7 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 - **Limited Chip Availability:** Used older USB-to-I²S chip intentionally to match existing knowledge and avoid unnecessary software complexity.  
 - **Signal Separation:** Long rectangular PCB and careful placement reduced analog/digital interference.  
 - **Assembly Constraints:** Component sizing and via selection simplified manual soldering and cost efficiency.
+- **USB-C:** Impedence matching the USB-C connectors data lines presented to be very challenging. The data lines are required to be a specific width and distance from each other. However, the pins being on opposit sides from where they needed posed many issues. In order to fix this problem I placed the USB-C connector onto the back of the board there by flipping the pins.
 
 ---
 
