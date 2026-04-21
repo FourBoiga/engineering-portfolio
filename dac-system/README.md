@@ -75,6 +75,13 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 
 ---
 
+## Future Revisions
+- Currently learning bare-metal imbedded systems coding in order to no longer need to use old, expensive, obsolite chips chips.
+- Increase board size in order to make digital and analog seperation larger.
+- Add filter between the Dac's output and the jack to lower noise.
+
+---
+
 ## Lessons Learned
 - **Routing first, placing capacitors second** is critical for dense analog/digital layouts.  
 - LDO power and careful decoupling significantly improve analog signal quality.  
