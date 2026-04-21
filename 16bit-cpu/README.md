@@ -35,7 +35,6 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 - **Rom** - Expanded the ROM's width from 16 bits to 32 bits.
 - **FrameBuffer** - Added a FrameBuffer into the RAM.
 - **Assembler** - Developed a Python assembler.
-- **Counter** - The counter has been changed to be connected to r2.
 
 ---
 
@@ -45,14 +44,13 @@ This project showcases a 16-bit CPU designed from scratch in Logisim. The CPU ha
 - ROM was expanded in order to accomidate for a larger imidiate (3 bits to 16 bits); allowing for a larger numbers to be input into the CPU at start. Moreover, the increased number of registers required an increase in bits needed to select which register to write to, and which to put into the ALU.
 - Framebuffer was added to further increase the CPU's performance by decreasing the load on the CPU. Adding the Framebuffer allows the CPU to no longer need to manually plot pixels on to the screen. Previously, the CPU was required to set the location of each pixel manually over multiple cycles. However, with the inclusion of the framebuffer the CPU is a able to send location (X and Y cordinates) and color information in only two cycles, contrary to the previous three.
 - The custom Python assembler was created to introduce quicker bug fixing. Through, the assembler's faster coding brougth through removing the need to code instructions manually in binary.
-- Connecting the Counter to a register rather than the instruction's immediate allows for easier coding. The coder is now able to make functions that can be called on. Before the jump to the function need to be manually coded into the immediate each time the function is called.
 
 ---
 
 ## V1 (Original Design)
 
 - Had 8 general-purpose registers, with r0 updating to ALU output by default unless another register is selected. X, Y, and Color registers drove a 256×256 display; DMUX selected which value from r7 updated which register. Additionally, the counter was directly connected to the instruction's immediate bits.
-- Limitations of this versions design is the CPU needing write to the screens' x, y, and color pins manually in seperate cycles. Severely reducing the CPU's performance and increasing the coding complexity. Moreover, when coding jump addresses can not be stored; needing to be set everytime they are used. Additionally, this version was unable to jump further than the 8th instruction due to the combination of a smaller immediate and the counter being connected to the instruction's immediate bits.
+- Limitations of this versions design is the CPU needing write to the screens' x, y, and color pins manually in seperate cycles. Severely reducing the CPU's performance and increasing the coding complexity. Moreover, when coding jump addresses can not be stored; needing to be set everytime they are used. Additionally, this version was unable to jump further than the 8th instruction due to the combination of a smaller immediate.
 
 ---
 
