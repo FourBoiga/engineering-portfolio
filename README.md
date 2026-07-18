@@ -6,7 +6,7 @@ This portfolio contains selected projects demonstrating simulation-driven design
 
 ## Projects
 
-### 6 GHz Antenna with 6ghz bandpass filter
+### 6 GHz Antenna with 6 GHz Bandpass Filter
 Design and simulation of a high-frequency antenna system using electromagnetic theory and transmission line principles. The project includes impedance matching, radiation pattern analysis, and wave propagation visualization.
 
 Key highlights:
@@ -28,9 +28,35 @@ Key highlights:
 - Emphasis on low noise and clean output
 - Includes filtering and buffering stages
 - System-level signal chain design
-- optimized for earbuds (in-ear monitors)
+- Optimized for earbuds (in-ear monitors)
 
 → [View Project](dac-system/README.md)
+
+---
+
+### 32-bit RISC-V CPU
+Design and implementation of a 32-bit RISC-V processor architecture, moving from visual schematic design to industry-standard hardware description languages. 
+
+Key highlights:
+- Implements the RV32I base integer instruction set
+- Designed using a pipelined architecture with hazard detection and forwarding paths
+- Developed and verified using Verilog/SystemVerilog simulation environments
+- Demonstrates advanced understanding of computer microarchitecture, instruction decoding, and memory interfaces
+
+→ [View Project](32bit-riscv-cpu/README.md)
+
+---
+
+### 16-bit CPU (Logisim)
+Design and implementation of a 16-bit processor built from fundamental logic components, including an ALU, registers, and control unit.
+
+Key highlights:
+- Built from basic logic gates and sequential circuits
+- Custom instruction execution
+- Full datapath and control design
+- Demonstrates understanding of computer architecture
+
+→ [View Project](16bit-cpu/README.md)
 
 ---
 
@@ -47,17 +73,6 @@ Focus areas:
 
 ---
 
-### 16-bit CPU (Logisim)
-Design and implementation of a 16-bit processor built from fundamental logic components, including an ALU, registers, and control unit.
-
-Key highlights:
-- Built from basic logic gates and sequential circuits
-- Custom instruction execution
-- Full datapath and control design
-- Demonstrates understanding of computer architecture
-
-→ [View Project](16bit-cpu/README.md)
-
 ## Engineering Approach
 
 My approach to engineering emphasizes:
@@ -71,13 +86,10 @@ My approach to engineering emphasizes:
 
 ## Tools and Technologies
 
-- Logisim (digital logic and CPU design)
-- Fusion 360 (CAD and mechanical design)
-- OpenFOAM (fluid simulation)
-- ANSYS (fluid and pump simulation)
-- openEMS (electromagnetic simulation)
-- KiCad (PCB design)
-- RPA (rocket propulsion analysis)
+- **Hardware Description / Logic:** Verilog/SystemVerilog, Logisim
+- **PCB Design & EDA:** KiCad, Sonnet Lite
+- **Electromagnetics & Physics Simulation:** openEMS, OpenFOAM, ANSYS, RPA (Rocket Propulsion Analysis)
+- **Mechanical CAD:** Fusion 360
 
 ---
 
@@ -86,3 +98,4 @@ My approach to engineering emphasizes:
 - RF system design and antenna development
 - PCB implementation of high-frequency circuits
 - Expanding into measured validation of simulated systems
+- Bare-metal embedded C programming for custom processor architectures
