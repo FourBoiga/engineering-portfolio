@@ -20,7 +20,7 @@ Design a high-efficiency antenna operating at 6 GHz with:
   | PCB | $90 |
   | Antenna |  $60 |
   | Connectors + misc | $30 |
-
+Not longer an accurate budget due to realizations in the cost of rf parts, has not yet been updated.
 ---
 
 ## Tools Used
