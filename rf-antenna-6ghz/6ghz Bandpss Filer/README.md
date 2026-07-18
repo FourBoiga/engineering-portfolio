@@ -1,7 +1,5 @@
 # 6 GHz Microstrip Bandpass Filter Prototype
 
-This repository documents the design, optimization, and simulation iterations of a **6 GHz High-Q Microstrip Bandpass Filter** optimized for a high-performance 2-layer RF PCB prototype using a genuine **Rogers R4003C** core material.
-
 The primary goal of this project is to develop a highly accurate virtual model of the filter to later compare against physical Vector Network Analyzer (VNA) measurements, analyzing how manufacturing tolerances map to numerical modeling data.
 
 ---
