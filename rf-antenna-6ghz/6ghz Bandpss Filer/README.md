@@ -10,7 +10,8 @@ The primary goal of this project is to model, optimize, and compare high-frequen
 
 | Parameter | Specification | Notes |
 | :--- | :--- | :--- |
-| **Center Frequency ($f_0$)** | 6.2 GHz – 6.4 GHz | Target ISM/WiFi 6E Band |
+| **Center Frequency ($f_0$)** | 6.0 GHz | Target operational frequency |
+| **Bandwidth (BW)** | 800 MHz | Full passband from 5.6 GHz to 6.4 GHz |
 | **Passband Ripple** | < 0.5 dB | Optimized input tapping |
 | **Substrate Core** | Rogers R4003C | Strict 0.254 mm (10 mil) thickness |
 | **Dielectric Constant ($\epsilon_r$)** | 3.55 | Stable across high frequencies |
@@ -35,7 +36,7 @@ To eliminate expensive hybrid lamination setup fees and minimize prototyping cos
 The simulation environment uses `gerber2ems` as an automated Python parsing interface alongside **OpenEMS** for Finite-Difference Time-Domain (FDTD) full-wave electromagnetic analysis.
 
 ### S-Parameter Analysis ($S_{11}$ and $S_{21}$)
-The insertion loss ($S_{21}$) demonstrates sharp roll-off characteristics bounding the target passband. The return loss ($S_{11}$) stays deeply notched within the operational band, ensuring maximum power transfer.
+The insertion loss ($S_{21}$) demonstrates sharp roll-off characteristics bounding the 800 MHz wide passband. The return loss ($S_{11}$) stays deeply notched within the operational band, ensuring maximum power transfer.
 
 ![](./plots/S_x1.png)
 
