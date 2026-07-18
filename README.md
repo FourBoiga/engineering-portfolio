@@ -6,7 +6,7 @@ This portfolio contains selected projects demonstrating simulation-driven design
 
 ## Projects
 
-### 6 GHz Antenna with Matching Network
+### 6 GHz Antenna with 6ghz bandpass filter
 Design and simulation of a high-frequency antenna system using electromagnetic theory and transmission line principles. The project includes impedance matching, radiation pattern analysis, and wave propagation visualization.
 
 Key highlights:
