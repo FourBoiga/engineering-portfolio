@@ -1,4 +1,4 @@
-# 6 GHz Antenna with Matching Network
+# 6 GHz Antenna with 6ghz bandpass filter
 
 ## Overview
 
