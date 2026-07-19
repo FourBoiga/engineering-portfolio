@@ -115,7 +115,7 @@ To suppress out-of-band interference, the antenna system integrates a dedicated 
 
 The extensive design evolution, tool exploration, and S-parameter optimization curves for this filter module have been documented in an independent sub-project documentation file.
 
-👉 **[View Full Bandpass Filter Optimization & Simulation History (README.md)](./6ghz_Bandpss_Filer/README.md)**
+👉 **[View Full Bandpass Filter Optimization & Simulation History (README.md)](./6ghz%20Bandpss%20Filer/README.md)**
 
 ---
 
