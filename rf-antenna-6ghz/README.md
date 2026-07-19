@@ -99,18 +99,6 @@ Click to watch full video
 
 ---
 
-## Model Assumptions and Limitations
-
-- Perfect Electric Conductor (PEC) assumptions used for antenna surfaces
-- No dielectric losses or surface roughness modeled
-- Ideal connector and feed transition
-- No manufacturing tolerances considered
-- No environmenta effects (temperature, humidity, nearby objects)
-
-These assumptions result in optimistic performance compared to real-world implementation and will be addressed in future iterations once real world data is gathered on the antenna.
-
----
-
 ## Engineering Analysis
 
 The antenna demonstrates strong performance across multiple key metrics. The input impedance is close to 50 Ω with minimal reactive component, enabling efficient power transfer. The -35 dB S11 indicates extremely low reflection at the operating frequency.
@@ -118,6 +106,16 @@ The antenna demonstrates strong performance across multiple key metrics. The inp
 The high aperture efficiency (over 90%) and directivity (~15 dBi) suggest that the antenna effectively converts input power into radiated electromagnetic energy with strong directional characteristics.
 
 Wave propagation analysis confirms the expected transition from near-field energy storage to far-field radiation, validating the physical behavior of the design.
+
+---
+
+## Integrated Bandpass Filter Network
+
+To suppress out-of-band interference, the antenna system integrates a dedicated **6 GHz High-Q Microstrip Bandpass Filter** designed targeting an 800 MHz bandwidth ($5.6\text{ GHz} - 6.4\text{ GHz}$). The design isolates transmission energy via precision-coupled microstrip resonators laid out over a specialized low-loss Rogers core. 
+
+The extensive design evolution, tool exploration, and S-parameter optimization curves for this filter module have been documented in an independent sub-project documentation file.
+
+👉 **[View Full Bandpass Filter Optimization & Simulation History (README.md)](./6ghz_Bandpss_Filer/README.md)**
 
 ---
 
