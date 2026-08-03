@@ -60,7 +60,7 @@ Focus areas:
 * Digital signal processing
 * Communication systems
 
-→ [View Project](wideband-sdr/README.md)
+→ [View Project](50mhz to 800mhz SDR/README.md)
 
 ---
 
