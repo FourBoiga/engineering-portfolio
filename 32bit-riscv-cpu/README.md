@@ -31,6 +31,9 @@ The structural layout of the single-cycle architecture utilizes discrete sub-cir
 
 ---
 
+## Image of the Risc-V CPU
+<img src="images/Screenshot From 2026-08-14 14-20-40.png" alt="DAC PCB Top View" width="600"/>
+
 ## The Transition to V2: Pipelining Challenges & Debugging
 As the project scales from a visual single-cycle layout toward a concurrent **5-Stage Pipelined Execution Core**, several critical microarchitectural bugs arose. Identifying these structural challenges highlighted the core discrepancies between static single-cycle layouts and time-multiplexed instruction streaming:
 
