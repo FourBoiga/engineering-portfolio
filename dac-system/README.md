@@ -47,10 +47,10 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 ## Final Assembled Hardware
 Below are the images of the final manufactured and hand-assembled hardware, featuring the bottom-mounted USB-C port and integrated ESD protection layout.
 
-<img src="images/IMG_1265.jpg" alt="Assembled DAC - Top View" width="600"/>
+<img src="images/IMG_1265.jpeg" alt="Assembled DAC - Top View" width="600"/>
 <p align="center"><i>Real-life top view of the assembled DAC board.</i></p>
 
-<img src="images/IMG_1266.jpg" alt="Assembled DAC - Bottom View" width="600"/>
+<img src="images/IMG_1266.jpeg" alt="Assembled DAC - Bottom View" width="600"/>
 <p align="center"><i>Real-life bottom view of the assembled DAC board, showcasing the inverted USB-C connector placement.</i></p>
 
 ---
