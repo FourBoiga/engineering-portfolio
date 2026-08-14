@@ -39,7 +39,7 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 - **ESD Protection:** Avalanche diodes safeguard the exposed USB-C data and power lines from electrostatic discharge.  
 - **Manual Assembly Considerations:** Component sizing (0402+) and via geometries were optimized specifically for manual assembly and cost efficiency.
 
-<img src="images/IMG_1265.jpeg" alt="DAC 3D Render" width="600"/>
+<img src="images/dac_3d_render.png" alt="DAC 3D Render" width="600"/>
 <p align="center"><i>3D render of the PCB layout showing components and assembly-friendly design layout.</i></p>
 
 ---
@@ -47,10 +47,10 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 ## Final Assembled Hardware
 Below are the images of the final manufactured and hand-assembled hardware, featuring the bottom-mounted USB-C port and integrated ESD protection layout.
 
-<img src="images/assembled_top.jpg" alt="Assembled DAC - Top View" width="600"/>
+<img src="images/IMG_1265.jpg" alt="Assembled DAC - Top View" width="600"/>
 <p align="center"><i>Real-life top view of the assembled DAC board.</i></p>
 
-<img src="images/assembled_bottom.jpg" alt="Assembled DAC - Bottom View" width="600"/>
+<img src="images/IMG_1266.jpg" alt="Assembled DAC - Bottom View" width="600"/>
 <p align="center"><i>Real-life bottom view of the assembled DAC board, showcasing the inverted USB-C connector placement.</i></p>
 
 ---
