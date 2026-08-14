@@ -94,7 +94,7 @@ Key highlights:
 
 ---
 
-### Ethanol / Nitrous Oxide Liquid Rocket Engine
+### Ethanol / Nitrous Oxide Liquid Rocket Engine(V2 is on a Temporary Hold)
 
 Design and analysis of a small-scale bipropellant liquid rocket engine, including combustion chamber, regenerative cooling, turbopump systems, and nozzle geometry.
 
