@@ -39,7 +39,7 @@ The DAC combines proven components and thoughtful engineering decisions to creat
 - **ESD Protection:** Avalanche diodes safeguard the exposed USB-C data and power lines from electrostatic discharge.  
 - **Manual Assembly Considerations:** Component sizing (0402+) and via geometries were optimized specifically for manual assembly and cost efficiency.
 
-<img src="images/dac_3d_render.png" alt="DAC 3D Render" width="600"/>
+<img src="images/IMG_1265.jpeg" alt="DAC 3D Render" width="600"/>
 <p align="center"><i>3D render of the PCB layout showing components and assembly-friendly design layout.</i></p>
 
 ---
