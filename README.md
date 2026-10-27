@@ -60,7 +60,7 @@ Focus areas:
 * Digital signal processing
 * Communication systems
 
-→ [View Project](50mhz-to-800mhz-SDR/README.md)
+→ [View Project]([https://github.com/FourBoiga/50-850-MHz-Software-Defined-Radio])
 
 ---
 
