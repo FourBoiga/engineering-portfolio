@@ -29,9 +29,6 @@ The engine consists of:
 - **Pressurized Nitrous Oxide Tank**: Maintains oxidizer in liquid state (800–1000 psi).  
 - **Nozzle**: Designed for ~0.9 atm exit pressure and ~1 N thrust.
 
-<img src="images/engine_full_assembly.png" alt="Full Engine Assembly" width="600"/>
-<p align="center"><i>CAD assembly showing injector, chamber, nozzle, pump, and cooling paths.</i></p>
-
 ---
 
 ## Injector Design
@@ -41,12 +38,6 @@ The engine employs a **pintle injector**, selected for:
 - Simplified CAD geometry for design and integration.  
 - Efficient atomization and mixing of ethanol and nitrous oxide.  
 - Historical precedent in small-scale engines.
-
-<img src="images/engine_injector_side.png" alt="Injector Side View" width="600"/>
-<p align="center"><i>Side view of pintle injector showing flow passages and central oxidizer jet.</i></p>
-
-<img src="images/engine_injector_top.png" alt="Injector Top View" width="600"/>
-<p align="center"><i>Top view of the injector, illustrating fuel annulus and oxidizer channel.</i></p>
 
 ---
 
@@ -58,9 +49,6 @@ Nozzle geometry was optimized for small-scale thrust while simulating **real-wor
 - **Exit Pressure**: 0.9 atm, representing **average ambient pressure** experienced by rockets across varying flight altitudes.  
 - **Expansion Ratio**: Designed for efficient exhaust expansion, minimal flow separation, and predicted thrust ~1 N.  
 - **Integration**: Smooth internal contours for consistent chamber-to-nozzle transition.
-
-<img src="images/engine_nozzle_injector_slice.png" alt="Nozzle & Injector Cross-Section" width="600"/>
-<p align="center"><i>Cross-section of nozzle and injector integration.</i></p>
 
 ---
 
@@ -84,9 +72,6 @@ The pump employs a **self-acting Rulon seal** inspired by NASA designs:
 - **Spring preload**: Maintains sealing during initial startup, before pressure is sufficient.  
 - **Pressure-actuated**: Internal pressure presses the Rulon against the shaft during operation.  
 - **Bearing**: High-speed, no-lubrication bearing supports shaft alignment and reduces wear.
-
-<img src="images/engine_pump_slice.png" alt="Pump Cross-Section" width="600"/>
-<p align="center"><i>Cross-section showing pump seal, shaft, and flow path.</i></p>
 
 ---
 
